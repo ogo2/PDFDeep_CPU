@@ -1,0 +1,25 @@
+# requirements.txt
+
+# Для обработки PDF (fitz модуль внутри PyMuPDF)
+PyMuPDF==1.22.3
+
+# Для машинного обучения и вычислений
+torch==2.0.1
+numpy==1.24.2
+
+# Для обработки языка
+transformers==4.26.1
+nltk==3.8.1
+sacrebleu==2.3.1
+
+# Для классических ML-процедур (train_test_split)
+scikit-learn==1.2.2
+
+# Для работы с изображениями
+Pillow==9.5.0
+
+# Для создания/обработки PDF c помощью ReportLab
+reportlab==3.6.12
+
+# Для построения графиков (если требуется)
+matplotlib==3.7.1
